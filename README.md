@@ -24,9 +24,8 @@ myList.append('item 2')
 myList.remove('item 1')
 
 # Removing every occurrence of the item in the list
-for item in myList:
-    if item == 'item 1':
-        myList.remove('item 1')
+while 'item 1' in myList:
+    myList.remove('item 1')
 
 # Getting the item in the specific index
 x = myList[0]
